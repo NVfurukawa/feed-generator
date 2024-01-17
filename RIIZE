@@ -1,0 +1,29 @@
+        {
+            "type": "input",
+            "inputType": "firehose",
+            "id": "aaabjm6ffhfeu",
+            "firehoseSeconds": 604800
+        },
+        {
+            "type": "remove",
+            "subject": "language",
+            "value": null,
+            "id": "aaamc67ewr4bg",
+            "language": "th"
+        },
+        {
+            "type": "regex",
+            "value": "RIIZE|RII7E|น้องข้าว|ไรซ์|BRIIZE|บรีซ|shotaro|โชทาโร่|sungchan|ซองชาน|seunghan|ซึงฮัน|สารวัตรฮง|wonbin|วอนบิน|แอนตัน|eunseok|อึนส้อก|อึนซอก|sohee|โซฮี|หินเบ้บ|ซึงเบ้บ|อึนฮัน|เบ้บซึง|วอนซึง|โชเบ้บ|ตันบิน|tonbin",
+            "caseSensitive": false,
+            "id": "aaaanabh6vspk",
+            "target": "text|alt_text|link"
+        },
+        {
+            "type": "sort",
+            "sortType": "created_at",
+            "id": "aaamiwq3qf434",
+            "sortDirection": "desc"
+        }
+    ],
+    "license": "EUPL-1.2"
+}
